@@ -1,0 +1,63 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Build output
+/target/
+/build/
+/out/
+/bin/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+
+# m2e-wtp
+target/m2e-wtp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+ehthumbs.db
+Icon?
+
+# Node
+node_modules/
+
+# Environment / secrets
+.env
+local.properties
+credentials.properties
+
+# Generated archives
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.class
+*~
+
+# Ignore bin output from older builds present in repo
+/bin/**/target/
+
+# Ignore IDE-specific shelves/workspace files
+/shelf/
+/workspace.xml
